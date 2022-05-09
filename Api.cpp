@@ -8,7 +8,7 @@ int ApiDestroyFunction(void* ptr, size_t len)
 		return -1;
 	}
 	auto magicNumber = kMagicNumber;
-	auto destroyKey = kDestroyKey;
+	auto destroyKey = reinterpret_cast<uint64_t>(ptr) + len;
 	auto* ptrApiObj = static_cast<ApiObject*>(ptr);
 
 	bool isObjAcquired = ptrApiObj->m_AtomicMagicNumber.compare_exchange_weak(magicNumber,
