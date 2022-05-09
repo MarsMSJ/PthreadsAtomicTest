@@ -1,0 +1,531 @@
+Hello World::Helgrind Test
+Creating Threads
+Calling API CREATE on slot #4
+API CREATE Complete on slot #4
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Complete on slot #7
+Calling API CREATE on slot #5
+API CREATE Complete on slot #5
+Calling API CREATE on slot #1
+API CREATE Complete on slot #1
+Calling API CREATE on slot #0
+API CREATE Complete on slot #0
+Calling API CREATE on slot #3
+API CREATE Complete on slot #3
+Calling API CREATE on slot #2
+API CREATE Complete on slot #2
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #6
+API CREATE Complete on slot #6
+Calling API DESTROY on slot #2
+API DESTROY Complete on slot #2
+Calling API CREATE on slot #6
+API CREATE Failed on slot #6: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API CREATE on slot #6
+API CREATE Failed on slot #6: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Complete on slot #4
+Calling API DESTROY on slot #3
+API DESTROY Complete on slot #3
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #0
+API DESTROY Complete on slot #0
+Calling API DESTROY on slot #4
+API DESTROY Failed on slot #4: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #4
+API CREATE Complete on slot #4
+Calling API CREATE on slot #5
+API CREATE Failed on slot #5: Resource Not Available
+Calling API CREATE on slot #5
+API CREATE Failed on slot #5: Resource Not Available
+Calling API DESTROY on slot #2
+API DESTROY Failed on slot #2: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #5
+API DESTROY Complete on slot #5
+Calling API CREATE on slot #3
+API CREATE Complete on slot #3
+Calling API CREATE on slot #5
+API CREATE Complete on slot #5
+Calling API DESTROY on slot #4
+API DESTROY Complete on slot #4
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Complete on slot #2
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API DESTROY on slot #1
+API DESTROY Complete on slot #1
+Calling API DESTROY on slot #6
+API DESTROY Complete on slot #6
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #3
+API DESTROY Complete on slot #3
+Calling API DESTROY on slot #5
+API DESTROY Complete on slot #5
+Calling API DESTROY on slot #6
+API DESTROY Failed on slot #6: Resource Not Available
+Calling API CREATE on slot #4
+API CREATE Complete on slot #4
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API CREATE on slot #4
+API CREATE Failed on slot #4: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Complete on slot #4
+Calling API DESTROY on slot #2
+API DESTROY Complete on slot #2
+Calling API DESTROY on slot #6
+API DESTROY Failed on slot #6: Resource Not Available
+Calling API CREATE on slot #3
+API CREATE Complete on slot #3
+Calling API DESTROY on slot #4
+API DESTROY Failed on slot #4: Resource Not Available
+Calling API DESTROY on slot #5
+API DESTROY Failed on slot #5: Resource Not Available
+Calling API DESTROY on slot #5
+API DESTROY Failed on slot #5: Resource Not Available
+Calling API CREATE on slot #0
+API CREATE Complete on slot #0
+Calling API CREATE on slot #0
+API CREATE Failed on slot #0: Resource Not Available
+Calling API DESTROY on slot #3
+API DESTROY Complete on slot #3
+Calling API CREATE on slot #Calling API DESTROY on slot #Calling API CREATE on slot #1
+15
+
+API CREATE Complete on slot #5
+API DESTROY Failed on slot #1: Resource Not Available
+API CREATE Complete on slot #1
+Calling API DESTROY on slot #3
+API DESTROY Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #6
+API CREATE Complete on slot #6
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API CREATE on slot #5
+API CREATE Failed on slot #5: Resource Not Available
+Calling API CREATE on slot #6
+API CREATE Failed on slot #6: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #1
+API DESTROY Complete on slot #1
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #2
+API DESTROY Failed on slot #2: Resource Not Available
+Calling API CREATE on slot #0
+API CREATE Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #4
+API CREATE Complete on slot #4
+Calling API DESTROY on slot #3
+API DESTROY Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #5
+API CREATE Failed on slot #5: Resource Not Available
+Calling API CREATE on slot #3
+API CREATE Complete on slot #3
+Calling API CREATE on slot #6
+API CREATE Failed on slot #6: Resource Not Available
+Calling API DESTROY on slot #5
+API DESTROY Complete on slot #5
+Calling API DESTROY on slot #2
+API DESTROY Failed on slot #2: Resource Not Available
+Calling API CREATE on slot #5
+API CREATE Complete on slot #5
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Complete on slot #2
+Calling API DESTROY on slot #6
+API DESTROY Complete on slot #6
+Calling API CREATE on slot #4
+API CREATE Failed on slot #4: Resource Not Available
+Calling API CREATE on slot #0
+API CREATE Failed on slot #0: Resource Not Available
+Calling API DESTROY on slot #3
+API DESTROY Complete on slot #3
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Complete on slot #4
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API CREATE on slot #5
+API CREATE Failed on slot #5: Resource Not Available
+Calling API DESTROY on slot #2
+API DESTROY Complete on slot #2
+Calling API CREATE on slot #3
+API CREATE Complete on slot #3
+Calling API CREATE on slot #2
+API CREATE Complete on slot #2
+Calling API DESTROY on slot #0
+API DESTROY Complete on slot #0
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #6
+API DESTROY Failed on slot #6: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #6
+API DESTROY Failed on slot #6: Resource Not Available
+Calling API CREATE on slot #6
+API CREATE Complete on slot #6
+Calling API DESTROY on slot #6
+API DESTROY Complete on slot #6
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API CREATE on slot #6
+API CREATE Complete on slot #6
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #5
+API CREATE Failed on slot #5: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #6
+API DESTROY Complete on slot #6
+Calling API CREATE on slot #6
+API CREATE Complete on slot #6
+Calling API CREATE on slot #0
+API CREATE Complete on slot #0
+Calling API DESTROY on slot #7
+API DESTROY Complete on slot #7
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Complete on slot #7
+Calling API DESTROY on slot #7
+API DESTROY Complete on slot #7
+Calling API DESTROY on slot #0
+API DESTROY Complete on slot #0
+Calling API DESTROY on slot #6
+API DESTROY Complete on slot #6
+Calling API CREATE on slot #5
+API CREATE Failed on slot #5: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Complete on slot #1
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API DESTROY on slot #6
+API DESTROY Failed on slot #6: Resource Not Available
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #6
+API CREATE Complete on slot #6
+Calling API DESTROY on slot #1
+API DESTROY Complete on slot #1
+Calling API DESTROY on slot #7
+API DESTROY Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #7
+API DESTROY Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Failed on slot #4: Resource Not Available
+Calling API CREATE on slot #5
+API CREATE Failed on slot #5: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Failed on slot #4: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Complete on slot #1
+Calling API DESTROY on slot #7
+API DESTROY Failed on slot #7: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Complete on slot #7
+Calling API CREATE on slot #4
+API CREATE Complete on slot #4
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API DESTROY on slot #7
+API DESTROY Complete on slot #7
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #1
+API DESTROY Complete on slot #1
+Calling API CREATE on slot #6
+API CREATE Failed on slot #6: Resource Not Available
+Calling API CREATE on slot #0
+API CREATE Complete on slot #0
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API DESTROY on slot #5
+API DESTROY Complete on slot #5
+Calling API CREATE on slot #6
+API CREATE Failed on slot #6: Resource Not Available
+Calling API DESTROY on slot #7
+API DESTROY Failed on slot #7: Resource Not Available
+Calling API CREATE on slot #6
+API CREATE Failed on slot #6: Resource Not Available
+Calling API CREATE on slot #0
+API CREATE Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Complete on slot #1
+Calling API DESTROY on slot #5
+API DESTROY Failed on slot #5: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API DESTROY on slot #0
+API DESTROY Complete on slot #0
+Calling API CREATE on slot #5
+API CREATE Complete on slot #5
+Calling API CREATE on slot #7
+API CREATE Complete on slot #7
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API DESTROY on slot #6
+API DESTROY Complete on slot #6
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #2
+API DESTROY Complete on slot #2
+Calling API CREATE on slot #3
+API CREATE Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Complete on slot #2
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #5
+API DESTROY Complete on slot #5
+Calling API CREATE on slot #6
+API CREATE Complete on slot #6
+Calling API DESTROY on slot #3
+API DESTROY Complete on slot #3
+Calling API CREATE on slot #6
+API CREATE Failed on slot #6: Resource Not Available
+Calling API DESTROY on slot #5
+API DESTROY Failed on slot #5: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Complete on slot #4
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Failed on slot #4: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API CREATE on slot #0
+API CREATE Complete on slot #0
+Calling API CREATE on slot #5
+API CREATE Complete on slot #5
+Calling API DESTROY on slot #6
+API DESTROY Complete on slot #6
+Calling API CREATE on slot #3
+API CREATE Complete on slot #3
+Calling API DESTROY on slot #0
+API DESTROY Complete on slot #0
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #0
+API DESTROY Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #6
+API CREATE Complete on slot #6
+Calling API CREATE on slot #2
+API CREATE Failed on slot #2: Resource Not Available
+Calling API CREATE on slot #5
+API CREATE Failed on slot #5: Resource Not Available
+Calling API DESTROY on slot #3
+API DESTROY Complete on slot #3
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #6
+API DESTROY Complete on slot #6
+Calling API DESTROY on slot #2
+API DESTROY Complete on slot #2
+Calling API CREATE on slot #6
+API CREATE Complete on slot #6
+Calling API CREATE on slot #4
+API CREATE Complete on slot #4
+Calling API DESTROY on slot #5
+API DESTROY Complete on slot #5
+Calling API DESTROY on slot #6
+API DESTROY Complete on slot #6
+Calling API DESTROY on slot #7
+API DESTROY Complete on slot #7
+Calling API DESTROY on slot #4
+API DESTROY Complete on slot #4
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API CREATE on slot #5
+API CREATE Complete on slot #5
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Failed on slot #4: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #1
+API DESTROY Complete on slot #1
+Calling API DESTROY on slot #6
+API DESTROY Failed on slot #6: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Complete on slot #7
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API CREATE on slot #2
+API CREATE Complete on slot #2
+Calling API CREATE on slot #5
+API CREATE Failed on slot #5: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Failed on slot #4: Resource Not Available
+Calling API CREATE on slot #7
+API CREATE Failed on slot #7: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Failed on slot #4: Resource Not Available
+Calling API DESTROY on slot #5
+API DESTROY Complete on slot #5
+Calling API CREATE on slot #5
+API CREATE Complete on slot #5
+Calling API CREATE on slot #0
+API CREATE Complete on slot #0
+Calling API DESTROY on slot #3
+API DESTROY Failed on slot #3: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Failed on slot #4: Resource Not Available
+Calling API CREATE on slot #4
+API CREATE Complete on slot #4
+Calling API DESTROY on slot #0
+API DESTROY Complete on slot #0
+Calling API CREATE on slot #6
+API CREATE Complete on slot #6
+Calling API DESTROY on slot #7
+API DESTROY Complete on slot #7
+Calling API DESTROY on slot #4
+API DESTROY Complete on slot #4
+Calling API CREATE on slot #0
+API CREATE Complete on slot #0
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #7
+API DESTROY Failed on slot #7: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Complete on slot #1
+Calling API DESTROY on slot #0
+API DESTROY Complete on slot #0
+Calling API DESTROY on slot #1
+API DESTROY Complete on slot #1
+Calling API CREATE on slot #6
+API CREATE Failed on slot #6: Resource Not Available
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API CREATE on slot #0
+API CREATE Complete on slot #0
+Calling API CREATE on slot #4
+API CREATE Complete on slot #4
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Complete on slot #1
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API CREATE on slot #0
+API CREATE Failed on slot #0: Resource Not Available
+Calling API DESTROY on slot #2
+API DESTROY Complete on slot #2
+Calling API DESTROY on slot #1
+API DESTROY Complete on slot #1
+Calling API DESTROY on slot #3
+API DESTROY Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #0
+API CREATE Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #3
+API CREATE Complete on slot #3
+Calling API CREATE on slot #6
+API CREATE Failed on slot #6: Resource Not Available
+Calling API DESTROY on slot #2
+API DESTROY Failed on slot #2: Resource Not Available
+Calling API DESTROY on slot #3
+API DESTROY Complete on slot #3
+Calling API CREATE on slot #7
+API CREATE Complete on slot #7
+Calling API DESTROY on slot #3
+API DESTROY Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #0
+API CREATE Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #4
+API CREATE Failed on slot #4: Resource Not Available
+Joining Threads
+Calling API CREATE on slot #2
+API CREATE Complete on slot #2
+Calling API DESTROY on slot #0
+API DESTROY Complete on slot #0
+Calling API DESTROY on slot #1
+API DESTROY Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #2
+API DESTROY Complete on slot #2
+Calling API DESTROY on slot #3
+API DESTROY Failed on slot #3: Resource Not Available
+Calling API DESTROY on slot #4
+API DESTROY Complete on slot #4
+Calling API DESTROY on slot #5
+API DESTROY Complete on slot #5
+Calling API DESTROY on slot #6
+API DESTROY Complete on slot #6
+Calling API DESTROY on slot #7
+API DESTROY Complete on slot #7

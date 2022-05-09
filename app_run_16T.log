@@ -1,0 +1,43 @@
+Hello World::Helgrind Test
+Creating Threads
+Calling API CREATE on slot #1
+Calling API DESTROY on slot #API CREATE Complete on slot #1
+Calling API DESTROY on slot #1
+API DESTROY Complete on slot #1
+Calling API CREATE on slot #1
+API CREATE Complete on slot #1
+Calling API CREATE on slot #3
+API CREATE Complete on slot #3
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Joining Threads
+Calling API CREATE on slot #0
+API CREATE Complete on slot #0
+Calling API CREATE on slot #0
+API CREATE Failed on slot #0: Resource Not Available
+Calling API DESTROY on slot #1
+API DESTROY Complete on slot #1
+Calling API DESTROY on slot #3
+API DESTROY Complete on slot #3
+Calling API CREATE on slot #2
+API CREATE Complete on slot #2
+Calling API DESTROY on slot #0
+API DESTROY Complete on slot #0
+3
+API DESTROY Failed on slot #3: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Complete on slot #1
+Calling API CREATE on slot #0
+API CREATE Complete on slot #0
+Calling API CREATE on slot #0
+API CREATE Failed on slot #0: Resource Not Available
+Calling API CREATE on slot #1
+API CREATE Failed on slot #1: Resource Not Available
+Calling API DESTROY on slot #0
+API DESTROY Complete on slot #0
+Calling API DESTROY on slot #1
+API DESTROY Complete on slot #1
+Calling API DESTROY on slot #2
+API DESTROY Complete on slot #2
+Calling API DESTROY on slot #3
+API DESTROY Failed on slot #3: Resource Not Available

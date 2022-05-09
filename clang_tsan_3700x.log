@@ -1,0 +1,78 @@
+==================
+WARNING: ThreadSanitizer: data race (pid=11092)
+  Read of size 1 at 0x7b10000000b0 by thread T8:
+    #0 ApiDestroyFunction(void*, unsigned long) /mnt/c/Users/Mars/source/repos/cppAtomics/Api.cpp:25 (app+0x4bdfff)
+    #1 CallApiFunctionDestroy(void*) /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:90 (app+0x4bcdf2)
+
+  Previous write of size 1 at 0x7b10000000b0 by thread T7:
+    #0 ApiCreateFunction(void*, unsigned long) /mnt/c/Users/Mars/source/repos/cppAtomics/Api.cpp:98 (app+0x4bfb58)
+    #1 CallApiFunctionCreate(void*) /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:72 (app+0x4bcc52)
+
+  Location is heap block of size 64 at 0x7b1000000080 allocated by main thread:
+    #0 malloc ??:? (app+0x44543c)
+    #1 main /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:28 (app+0x4bc773)
+
+  Thread T8 (tid=11101, running) created by main thread at:
+    #0 pthread_create ??:? (app+0x427f76)
+    #1 main /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:45 (app+0x4bc9b9)
+
+  Thread T7 (tid=11100, finished) created by main thread at:
+    #0 pthread_create ??:? (app+0x427f76)
+    #1 main /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:41 (app+0x4bc96e)
+
+SUMMARY: ThreadSanitizer: data race /mnt/c/Users/Mars/source/repos/cppAtomics/Api.cpp:25 in ApiDestroyFunction(void*, unsigned long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=11092)
+  Write of size 1 at 0x7b1000000088 by thread T8:
+    #0 pthread_mutex_destroy ??:? (app+0x44f1ce)
+    #1 ApiDestroyFunction(void*, unsigned long) /mnt/c/Users/Mars/source/repos/cppAtomics/Api.cpp:27 (app+0x4be020)
+    #2 CallApiFunctionDestroy(void*) /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:90 (app+0x4bcdf2)
+
+  Previous write of size 1 at 0x7b1000000088 by thread T7:
+    #0 pthread_mutex_init ??:? (app+0x42835a)
+    #1 ApiCreateFunction(void*, unsigned long) /mnt/c/Users/Mars/source/repos/cppAtomics/Api.cpp:92 (app+0x4bfa27)
+    #2 CallApiFunctionCreate(void*) /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:72 (app+0x4bcc52)
+
+  Location is heap block of size 64 at 0x7b1000000080 allocated by main thread:
+    #0 malloc ??:? (app+0x44543c)
+    #1 main /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:28 (app+0x4bc773)
+
+  Thread T8 (tid=11101, running) created by main thread at:
+    #0 pthread_create ??:? (app+0x427f76)
+    #1 main /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:45 (app+0x4bc9b9)
+
+  Thread T7 (tid=11100, finished) created by main thread at:
+    #0 pthread_create ??:? (app+0x427f76)
+    #1 main /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:41 (app+0x4bc96e)
+
+SUMMARY: ThreadSanitizer: data race ??:? in __interceptor_pthread_mutex_destroy
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=11092)
+  Write of size 8 at 0x7b1000000080 by thread T8:
+    #0 memset ??:? (app+0x44fdb7)
+    #1 ApiDestroyFunction(void*, unsigned long) /mnt/c/Users/Mars/source/repos/cppAtomics/Api.cpp:30 (app+0x4be057)
+    #2 CallApiFunctionDestroy(void*) /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:90 (app+0x4bcdf2)
+
+  Previous atomic write of size 8 at 0x7b1000000080 by thread T7:
+    #0 __tsan_atomic64_store ??:? (app+0x46c41d)
+    #1 ApiCreateFunction(void*, unsigned long) /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/atomic_base.h:374 (app+0x4bfc44)
+    #2 ApiCreateFunction(void*, unsigned long) /mnt/c/Users/Mars/source/repos/cppAtomics/Api.cpp:100 (app+0x4bfc44)
+    #3 CallApiFunctionCreate(void*) /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:72 (app+0x4bcc52)
+
+  Location is heap block of size 64 at 0x7b1000000080 allocated by main thread:
+    #0 malloc ??:? (app+0x44543c)
+    #1 main /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:28 (app+0x4bc773)
+
+  Thread T8 (tid=11101, running) created by main thread at:
+    #0 pthread_create ??:? (app+0x427f76)
+    #1 main /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:45 (app+0x4bc9b9)
+
+  Thread T7 (tid=11100, finished) created by main thread at:
+    #0 pthread_create ??:? (app+0x427f76)
+    #1 main /mnt/c/Users/Mars/source/repos/cppAtomics/cppAtomics.cpp:41 (app+0x4bc96e)
+
+SUMMARY: ThreadSanitizer: data race ??:? in __interceptor_memset
+==================
+ThreadSanitizer: reported 3 warnings
